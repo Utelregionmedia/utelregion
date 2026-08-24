@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Utelregion | Media, Technology & Innovation</title>
+
+  <meta name="description" content="Utelregion - Media, Technology and Innovation. Discover news, technology, digital culture and innovative ideas.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b1220;
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: #20c997;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #20c997;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      padding: 70px 6%;
+      background: linear-gradient(135deg, #07111f, #12365c);
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 750px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 span {
+      color: #20c997;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #dbe5f0;
+      margin-bottom: 30px;
+      max-width: 650px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #20c997;
+      color: #07111f;
+      padding: 14px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: white;
+    }
+
+    section {
+      padding: 70px 6%;
+    }
+
+    .section-title {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .section-intro {
+      color: #64748b;
+      max-width: 700px;
+      margin-bottom: 35px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #64748b;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .newsletter {
+      background: #0b1220;
+      color: white;
+      text-align: center;
+    }
+
+    .newsletter p {
+      color: #cbd5e1;
+      margin: 15px auto 25px;
+      max-width: 600px;
+    }
+
+    footer {
+      background: #050a12;
+      color: #94a3b8;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        min-height: 65vh;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 55px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">utel<span>region</span></div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#technology">Technology</a>
+      <a href="#media">Media</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Media.<br>Technology.<br><span>Innovation.</span></h1>
+
+        <p>
+          Welcome to Utelregion — a growing digital platform exploring
+          technology, media, innovation, digital culture and the ideas
+          shaping our future.
+        </p>
+
+        <a href="#technology" class="button">Explore Utelregion</a>
+      </div>
+    </section>
+
+    <section id="technology">
+      <h2 class="section-title">Technology & Innovation</h2>
+
+      <p class="section-intro">
+        Discover emerging technologies, digital trends, useful tools and
+        innovative ideas from Africa and around the world.
+      </p>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Technology</h3>
+          <p>
+            News, insights and discoveries from the rapidly changing world
+            of technology.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Digital Life</h3>
+          <p>
+            Explore how technology is changing the way people work,
+            communicate, create and live.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Innovation</h3>
+          <p>
+            Ideas, startups, creators and innovations building the future.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="media" class="about">
+      <h2 class="section-title">Media & Culture</h2>
+
+      <p class="section-intro">
+        Utelregion will grow into a destination for stories, opinions,
+        interviews, entertainment, digital culture and original content.
+      </p>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Latest Stories</h3>
+          <p>
+            Stay connected with interesting stories and developments from
+            the digital world.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Creators</h3>
+          <p>
+            Discover people creating new ideas, businesses and digital
+            experiences.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Future</h3>
+          <p>
+            Follow the ideas and technologies that could shape tomorrow.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Utelregion</h2>
+
+      <p class="section-intro">
+        Utelregion is being built as a modern African digital media and
+        technology platform. Our goal is to create a space where technology,
+        media and innovation meet.
+      </p>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join the Utelregion Community</h2>
+
+      <p>
+        We are building gradually. Follow Utelregion as we grow and bring
+        more stories, technology and innovation to the platform.
+      </p>
+
+      <a href="#" class="button">Coming Soon</a>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Utelregion. Media, Technology & Innovation.
+  </footer>
+
+</body>
+</html>
